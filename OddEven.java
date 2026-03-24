@@ -1,16 +1,14 @@
-//oddoreven
-import java.util.*;
+//oddeven
+import java.util.Scanner;
 public class OddEven{
-	public static void main(String args[]){
-	Scanner sc = new Scanner(System.in);
-	System.out.println("enter a number :");
-	int n = sc.nextInt();
-	if(n%2==0){
-		System.out.print("even");
+	public static void main(String a[]){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("provide a number:");
+		int num=sc.nextInt();
+		if (num%2==1){
+		System.out.println("ODD");
 		}else{
-		System.out.print("odd");
+		System.out.println("EVEN");
 		}
-		}
-		}
-		
-			
+	}
+}
